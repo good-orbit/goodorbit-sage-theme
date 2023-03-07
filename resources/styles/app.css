@@ -1,0 +1,10 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+body {
+    border:23px solid green;
+    p {
+        font-size: 30px;;
+    }
+}
