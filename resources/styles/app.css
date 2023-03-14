@@ -2,9 +2,168 @@
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
 
+
 body {
-    border:23px solid green;
-    p {
-        font-size: 30px;;
-    }
+    margin: 0;
+    background-color: #000;; 
 }
+  
+  canvas {
+    display: block;
+    vertical-align: bottom;
+  }
+  /* .fade-in-image */.fade-in {
+    animation: fadeIn 10s;
+    -webkit-animation: fadeIn 10s;
+    -moz-animation: fadeIn 10s;
+    -o-animation: fadeIn 10s;
+    -ms-animation: fadeIn 10s;
+  }
+  section {
+    height: 100vh;
+  }
+  
+  @keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-moz-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-webkit-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-o-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-ms-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  /* ---- LANDING PAGE---- */
+  #particles-js {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+  }
+  .logo {
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    top: 12%;
+    text-align: center;
+  
+    @media screen and (max-width: 640px) {
+      max-width: 50%;
+    }
+    @media screen and (min-width: 768px) {
+      max-width: 40%;
+    }
+    @media screen and (min-width: 1024px) {
+      max-width: 30%;
+    }
+    @media screen and (min-width: 1280px) {
+      max-width: 22%;
+    }
+  }
+  .hero-h1 {
+    padding: 10px 20px;
+    background-color: transparent;
+    font-family: 'KoHo', sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    bottom: 30%;
+    text-align: center;
+    color: #fff;
+    width: 30%;
+  }
+  .hello-button {
+    padding: 10px 20px;
+    background-color: transparent;
+    border: 2px solid #fff;
+    border-radius: 100px;
+    font-family: 'KoHo', sans-serif;
+    font-size: 18px;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    bottom: 22%;
+    text-align: center;
+    color: #fff;
+    width: 10%;
+  }
+  
+  /* ---- HEADER---- */
+  header {
+    padding: 20px;
+  }
+  .circle-logo {
+    float: left;
+  }
+  .contact-button {
+    padding: 10px 20px;
+    background-color: transparent;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    float: right;
+    text-align: center;
+    color: #fff;
+    width: 12%;
+  }
+  
+  /* ---- ABOUT */
+  .about-heading{
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    size: 40px;
+    line-height: 46px;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 25%;
+  
+  }
+  .projects-button {
+    padding: 10px 20px;
+    background-color: transparent;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    color: #fff;
+    width: 13%;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    margin-top: 160px;
+  }
+  
+  /* ---- Projets */
+  .projects-heading {
+    color: #fff !important;
+    font-family: 'Roboto', sans-serif;
+    size: 27px;
+    line-height: 34px;
+    font-weight: 400;
+    text-align: left;
+  }
