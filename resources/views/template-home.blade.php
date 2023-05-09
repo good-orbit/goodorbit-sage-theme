@@ -8,14 +8,18 @@
 
 <main>
   <section>
-  <div id="particles-js" style="color:white;">
-  <img class="logo fade-in" src="@asset('images/go-white-nobg.png')" />
-  <h1 class="fade-in hero-h1">
-    A Boutique Web Development Agency From Los Angeles
-  </h1>
-  <button type="button" class="fade-in hello-button">VIEW OUR WORK</button> 
-  </div>
-</section>
+    <div id="particles-js" style="color:white;">
+      <div class="copy-house">
+        <img class="logo fade-in" src="@asset('images/go-white-nobg.png')" alt="Good Orbit Logo"/>
+        <h1 class="fade-in hero-h1">
+          A Boutique Web Development Agency From Los Angeles
+        </h1>
+        <a href="/about">
+          <button type="button" class="fade-in hello-button">ABOUT US</button> 
+        </a>
+      </div><!-- end copy house --> 
+    </div><!-- end particle js --> 
+  </section>
 </main>
 
 <script src="assets/js/app.min.js"></script>

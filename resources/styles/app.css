@@ -54,62 +54,75 @@ body {
     width: 100%;
     height: 100%;
   }
-  .logo {
+  .copy-house {
     position: absolute;
     margin-left: auto;
     margin-right: auto;
     left: 0;
     right: 0;
-    top: 12%;
-    text-align: center;
-    max-width: 42%;
+    top: 10%;
+    width:55%;
     @media screen and (min-width: 600px) {
-      max-width: 42%;
+      width:45%;
     }
     @media screen and (min-width: 768px) {
-      max-width: 31%;
+      width:35%;
     }
     @media screen and (min-width: 1000px) {
-      max-width: 26%;
-      min-width:340px;
-      top: 15%;
+      width:25%;
+ 
     }
     @media screen and (min-width: 1600px) {
-      width:100%;
+      width:25%;
+   
+    }
+  }
+  .logo {
+    margin:auto;
+    position: relative;
+    text-align: center;
+    @media screen and (min-width: 600px) {
+      max-width: 100%;
+    }
+    @media screen and (min-width: 768px) {
+      max-width: 100%;
+    }
+    @media screen and (min-width: 1000px) {
+      max-width: 100%;
+ 
+    }
+
+    @media screen and (min-width: 1600px) {
+   
       max-width: 420px;
-      top: 12%;
+   
     }
   }
   .hero-h1 {
-    padding: 10px 20px;
     background-color: transparent;
     font-family: 'KoHo', sans-serif;
-    font-size: 30px;
+    font-size: 19px;
     font-weight: 300;
     letter-spacing: 0.5px;
-    position: absolute;
-    margin-left: auto;
-    margin-right: auto;
-    left: 0;
-    right: 0;
-    bottom: 30%;
     text-align: center;
     color: #fff;
-    width: 40%;
+    margin-bottom: 40px;
     @media screen and (min-width: 600px) {
-
+      font-size:18px;
     }
     @media screen and (min-width: 768px) {
       font-size:18px;
     }
     @media screen and (min-width: 1000px) {
-      width: 30%;
-      bottom: 36%;
-      font-size: 25px;
+  
+      font-size: 22px;
+    }
+    @media screen and (min-width: 1293px) {
+
+      font-size: 25px
     }
     @media screen and (min-width: 1675px) {
-      width: 27%;
-      bottom: 32%;
+     
       font-size:30px;
     }
   }
@@ -120,91 +133,84 @@ body {
     border-radius: 100px;
     font-family: 'KoHo', sans-serif;
     font-weight: 400;
-    font-size: 16px;
-    position: absolute;
-    margin-left: auto;
-    margin-right: auto;
-    left: 0;
-    right: 0;
-    bottom: 22%;
+    font-size: 12px;
+    margin:auto;
     text-align: center;
     color: #fff;
-    width: 9%;
+    display: block;
+ 
     @media screen and (min-width: 600px) {
-     
+      font-size: 14px;
     }
     @media screen and (min-width: 768px) {
-      width:13%;
-      bottom: 23%;
+      font-size:16px;
     }
     @media screen and (min-width: 1000px) {
-      width:13%;
-      bottom: 27%;
+     
+    }
+    @media screen and (min-width: 1293px) {
+   
     }
     @media screen and (min-width: 1600px) {
-      width: 11%;
-      bottom: 25%;
+  
     }
     @media screen and (min-width: 1860px) {
-      width: 9%;
-      bottom: 23%;
+ 
     }
   }
   
-  /* ---- HEADER---- */
-  header {
-    padding: 20px;
-  }
-  .circle-logo {
-    float: left;
-  }
-  .contact-button {
-    padding: 10px 20px;
-    background-color: transparent;
-    border: 2px solid #fff;
-    border-radius: 5px;
-    font-family: 'Roboto', sans-serif;
-    font-size: 24px;
-    float: right;
-    text-align: center;
-    color: #fff;
-    width: 12%;
-  }
+
+    /* ---- WORK PAGE---- */
+    .copy-house-page {
+      position: absolute;
+      margin-left: auto;
+      margin-right: auto;
+      left: 0;
+      right: 0;
+      top: 0%;
+      width:100%;
+      @media screen and (min-width: 600px) {
   
-  /* ---- ABOUT */
-  .about-heading{
-    color: #fff;
-    font-family: 'Roboto', sans-serif;
-    size: 40px;
-    line-height: 46px;
-    font-weight: 500;
-    text-align: center;
-    margin-top: 25%;
+      }
+      @media screen and (min-width: 768px) {
+
+      }
+      @media screen and (min-width: 1000px) {
+   
+      }
+      @media screen and (min-width: 1600px) {
+ 
+     
+      }
+    }
+    .logo-standard-page {
+      margin-top:60px;
+      position: relative;
+      text-align: left;
+      display: block;
   
-  }
-  .projects-button {
-    padding: 10px 20px;
-    background-color: transparent;
-    border: 2px solid #fff;
-    border-radius: 5px;
-    font-family: 'Roboto', sans-serif;
-    font-size: 24px;
-    color: #fff;
-    width: 13%;
-    position: absolute;
-    margin-left: auto;
-    margin-right: auto;
-    left: 0;
-    right: 0;
-    margin-top: 160px;
-  }
+      @media screen and (min-width: 600px) {
+
+      }
+      @media screen and (min-width: 768px) {
+ 
+      }
+      @media screen and (min-width: 1000px) {
+      
+   
+      }
   
-  /* ---- Projets */
-  .projects-heading {
-    color: #fff !important;
-    font-family: 'Roboto', sans-serif;
-    size: 27px;
-    line-height: 34px;
-    font-weight: 400;
-    text-align: left;
-  }
+      @media screen and (min-width: 1600px) {
+    
+     
+      }
+    }
+
+    .mission {
+      width:50%;
+      margin:50px 0 50px 0;
+      text-align: left;
+      font-family: 'Roboto', sans-serif;
+      font-size:25px;
+      line-height: 34px;
+    }
