@@ -18,8 +18,11 @@
           <h2 class="mission">
             <?php the_field('h2'); ?>
           </h2>
-          <div class="p-8 bg-amber-300">
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 lg:gap-8">
+          <h2 class="section-title">
+            Recent Projects
+          </h2>
+          <div class="project-grid">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 lg:gap-8">
               <?php
               // Check rows existexists.
               if( have_rows('projects') ):
@@ -32,9 +35,21 @@
                         <?php echo get_sub_field('title'); ?>
                       </h3>
                       <img src="<?php echo get_sub_field('cover_pic');?>">
-                      <a class="view-project" href="<?php echo get_sub_field('link'); ?>">
+                      <a class="view-project" href="<?php echo get_sub_field('link'); ?>" target="_blank">
                         view project
                       </a>
+                      <?php if(have_rows('cat_tag')):
+                      while(have_rows('cat_tag')) : the_row(); ?>
+                        <?php echo get_sub_field('tag_name'); ?> 
+                      <?php
+                      // End loop.
+                      endwhile;
+
+                      // No value.
+                      else :
+                      // Do something...
+                      endif;
+                      ?>
                     </div><!-- end project--> 
                 <?php
                 // End loop.

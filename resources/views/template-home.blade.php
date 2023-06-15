@@ -9,13 +9,15 @@
 <main>
   <section>
     <div id="particles-js" style="color:white;">
+    <div class="orb"></div>
       <div class="copy-house">
-        <img class="logo fade-in" src="@asset('images/go-white-nobg.png')" alt="Good Orbit Logo"/>
+       
+        <img class="logo fade-in" style="transform: rotate(0) !important;" src="@asset('images/go-white-nobg.png')" alt="Good Orbit Logo"/>
         <h1 class="fade-in hero-h1">
-          A Boutique Web Development Agency From Los Angeles
+          A Boutique Web Development Agency Based in Los Angeles
         </h1>
-        <a href="/about">
-          <button type="button" class="fade-in hello-button">ABOUT US</button> 
+        <a href="/">
+          <button type="button" class="fade-in hello-button">COMING SOON</button> 
         </a>
       </div><!-- end copy house --> 
     </div><!-- end particle js --> 

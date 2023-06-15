@@ -81,20 +81,52 @@ body {
     margin:auto;
     position: relative;
     text-align: center;
+    margin-top: 154px;
+    max-width: 90%;
+    transform: rotate(0) !important;
     @media screen and (min-width: 600px) {
       max-width: 100%;
     }
     @media screen and (min-width: 768px) {
-      max-width: 100%;
+      max-width: 50%;
+      margin-top:140px;
     }
     @media screen and (min-width: 1000px) {
       max-width: 100%;
- 
+      margin-top: 124px;
     }
 
     @media screen and (min-width: 1600px) {
-   
       max-width: 420px;
+      margin-top: 44px;
+    }
+  }
+  .orb {
+    background-color: rgba(255, 255, 255, 0);
+    border-radius: 200%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    height: 350px;
+    width: 350px;
+    @media screen and (min-width: 600px) {
+      
+    }
+    @media screen and (min-width: 768px) {
+      height: 360px;
+      width: 360px
+    }
+    @media screen and (min-width: 1000px) {
+      background-color: rgba(255, 255, 255, 0.19);
+      height: 660px;
+      width: 660px
+    }
+    @media screen and (min-width: 1600px) {
+      height: 760px;
+      width: 760px
    
     }
   }
@@ -125,6 +157,13 @@ body {
      
       font-size:30px;
     }
+  }
+  .section-title {
+    font-family: 'KoHo', sans-serif;
+    font-size:3em ;
+    font-weight: 300;
+    color: white;
+    margin-bottom: 20px;
   }
   .hello-button {
     padding: 10px 20px;
@@ -161,6 +200,11 @@ body {
   
 
     /* ---- WORK PAGE---- */
+    .project {
+      background-color: rgba(255, 255, 255, 0.19);
+      border-radius: 300%;
+
+    }
     .copy-house-page {
       position: absolute;
       margin-left: auto;
@@ -205,12 +249,11 @@ body {
      
       }
     }
-
     .mission {
       width:50%;
       margin:50px 0 50px 0;
       text-align: left;
       font-family: 'Roboto', sans-serif;
-      font-size:25px;
-      line-height: 34px;
+      font-size:1.3em;
+      line-height: 30px;
     }
