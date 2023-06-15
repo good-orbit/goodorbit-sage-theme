@@ -81,7 +81,7 @@ body {
     margin:auto;
     position: relative;
     text-align: center;
-    margin-top: 154px;
+    margin-top: 80px;
     max-width: 90%;
     transform: rotate(0) !important;
     @media screen and (min-width: 600px) {
@@ -201,8 +201,7 @@ body {
 
     /* ---- WORK PAGE---- */
     .project {
-      background-color: rgba(255, 255, 255, 0.19);
-      border-radius: 300%;
+ 
 
     }
     .copy-house-page {
@@ -250,6 +249,7 @@ body {
       }
     }
     .mission {
+  
       width:50%;
       margin:50px 0 50px 0;
       text-align: left;
